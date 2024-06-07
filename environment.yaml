@@ -1,0 +1,23 @@
+# environment.yaml
+
+name: azure2
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.5
+  - numpy
+  - scipy
+  - matplotlib
+  - lmfit
+  - emcee
+  - h5py
+  - corner
+  - seaborn
+  - multiprocess
+  - tqdm
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - pip
+  - pip:
+    - brick-james
